@@ -1,0 +1,178 @@
+[
+  {
+    "id": "ev_1792495759640_rbyx",
+    "agentId": "sub_agent_whatsapp_send_message_mvglozxk",
+    "taskId": "task_1792495759639_8379",
+    "eventType": "task_completed",
+    "eventTimestamp": "2026-10-20T11:29:19.640Z",
+    "eventDetails": {
+      "actions": 3
+    }
+  },
+  {
+    "id": "ev_1792495759639_w698",
+    "agentId": "sub_agent_whatsapp_send_message_mvglozxk",
+    "taskId": "task_1792495759639_8379",
+    "eventType": "task_started",
+    "eventTimestamp": "2026-10-20T11:29:19.639Z",
+    "eventDetails": {
+      "category": "messaging_send",
+      "capability": "whatsapp.send_message"
+    }
+  },
+  {
+    "id": "ev_1792495759639_6wwu",
+    "agentId": "sub_agent_whatsapp_send_message_mvglozxk",
+    "taskId": "task_1792495759639_8379",
+    "eventType": "agent_reused",
+    "eventTimestamp": "2026-10-20T11:29:19.639Z",
+    "eventDetails": {
+      "capability": "whatsapp.send_message",
+      "expiresAt": "2026-10-21T11:29:19.592Z",
+      "taskCount": 1
+    }
+  },
+  {
+    "id": "ev_1792495759638_x9tr",
+    "agentId": "sub_agent_pc_open_app_mvglozxn",
+    "taskId": "task_1792495759595_3bws",
+    "eventType": "task_completed",
+    "eventTimestamp": "2026-10-20T11:29:19.638Z",
+    "eventDetails": {
+      "actions": 2
+    }
+  },
+  {
+    "id": "ev_1792495759596_ehdj",
+    "agentId": "sub_agent_pc_open_app_mvglozxn",
+    "taskId": "task_1792495759595_3bws",
+    "eventType": "task_started",
+    "eventTimestamp": "2026-10-20T11:29:19.596Z",
+    "eventDetails": {
+      "category": "pc_app_launch",
+      "capability": "pc.open_app"
+    }
+  },
+  {
+    "id": "ev_1792495759596_zv7m",
+    "agentId": "sub_agent_pc_open_app_mvglozxn",
+    "taskId": "task_1792495759595_3bws",
+    "eventType": "agent_created",
+    "eventTimestamp": "2026-10-20T11:29:19.596Z",
+    "eventDetails": {
+      "name": "Pc Open App Sub-Agent",
+      "capability": "pc.open_app",
+      "expiresAt": "2026-10-21T11:29:19.595Z"
+    }
+  },
+  {
+    "id": "ev_1792495759595_8mni",
+    "agentId": "sub_agent_youtube_search_browse_mvglozxn",
+    "taskId": "security_check",
+    "eventType": "security_violation",
+    "eventTimestamp": "2026-10-20T11:29:19.595Z",
+    "eventDetails": {
+      "toolName": "unauthorized_shell_execution",
+      "allowedTools": [
+        "youtube.open_video",
+        "youtube.playback",
+        "youtube.search"
+      ]
+    }
+  },
+  {
+    "id": "ev_1792495759595_941b",
+    "agentId": "sub_agent_youtube_search_browse_mvglozxn",
+    "taskId": "task_1792495759595_qs78",
+    "eventType": "agent_created",
+    "eventTimestamp": "2026-10-20T11:29:19.595Z",
+    "eventDetails": {
+      "name": "Youtube Search Browse Sub-Agent",
+      "capability": "youtube.search_browse",
+      "expiresAt": "2026-10-21T11:29:19.595Z"
+    }
+  },
+  {
+    "id": "ev_1792495759594_r9e1",
+    "agentId": "sub_agent_skills_evolve_skill_mvglozxm",
+    "taskId": "task_1792495759594_vbbm",
+    "eventType": "agent_created",
+    "eventTimestamp": "2026-10-20T11:29:19.594Z",
+    "eventDetails": {
+      "name": "Skills Evolve Skill Sub-Agent",
+      "capability": "skills.evolve_skill",
+      "expiresAt": "2026-10-21T11:29:19.594Z"
+    }
+  },
+  {
+    "id": "ev_1792495759594_os7y",
+    "agentId": "sub_agent_youtube_search_browse_mvglozxl",
+    "taskId": "task_1792495759594_l4yg",
+    "eventType": "agent_expired",
+    "eventTimestamp": "2026-10-20T11:29:19.594Z",
+    "eventDetails": {
+      "reason": "24-hour lifecycle elapsed",
+      "expiresAt": "2026-10-20T11:29:19.594Z"
+    }
+  },
+  {
+    "id": "ev_1792495759593_2me4",
+    "agentId": "sub_agent_youtube_search_browse_mvglozxl",
+    "taskId": "task_1792495759593_lwt8",
+    "eventType": "agent_reused",
+    "eventTimestamp": "2026-10-20T11:29:19.593Z",
+    "eventDetails": {
+      "capability": "youtube.search_browse",
+      "expiresAt": "2026-10-21T11:29:19.593Z",
+      "taskCount": 1
+    }
+  },
+  {
+    "id": "ev_1792495759593_3sky",
+    "agentId": "sub_agent_youtube_search_browse_mvglozxl",
+    "taskId": "task_1792495759593_0b3h",
+    "eventType": "agent_created",
+    "eventTimestamp": "2026-10-20T11:29:19.593Z",
+    "eventDetails": {
+      "name": "Youtube Search Browse Sub-Agent",
+      "capability": "youtube.search_browse",
+      "expiresAt": "2026-10-21T11:29:19.593Z"
+    }
+  },
+  {
+    "id": "ev_1792495759592_9smy",
+    "agentId": "sub_agent_whatsapp_send_message_mvglozxk",
+    "taskId": "task_1792495759592_kagb",
+    "eventType": "agent_created",
+    "eventTimestamp": "2026-10-20T11:29:19.592Z",
+    "eventDetails": {
+      "name": "Whatsapp Send Message Sub-Agent",
+      "capability": "whatsapp.send_message",
+      "expiresAt": "2026-10-21T11:29:19.592Z"
+    }
+  },
+  {
+    "id": "ev_1792495759592_du7n",
+    "agentId": "sub_agent_whatsapp_search_contacts_mvglozxk",
+    "taskId": "task_1792495759592_5toc",
+    "eventType": "agent_created",
+    "eventTimestamp": "2026-10-20T11:29:19.592Z",
+    "eventDetails": {
+      "name": "Whatsapp Search Contacts Sub-Agent",
+      "capability": "whatsapp.search_contacts",
+      "expiresAt": "2026-10-21T11:29:19.592Z"
+    }
+  },
+  {
+    "id": "ev_1792495759592_9dsg",
+    "agentId": "sub_agent_github_inspect_repo_mvglozxj",
+    "taskId": "task_1792495759591_20wl",
+    "eventType": "agent_created",
+    "eventTimestamp": "2026-10-20T11:29:19.592Z",
+    "eventDetails": {
+      "name": "Github Inspect Repo Sub-Agent",
+      "capability": "github.inspect_repo",
+      "expiresAt": "2026-10-21T11:29:19.591Z"
+    }
+  }
+]

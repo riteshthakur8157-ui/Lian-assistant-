@@ -1,0 +1,6 @@
+{
+  "name": "Lina AI Voice Assistant",
+  "description": "A Windows-first, emotionally aware AI voice companion and multi-agent assistant with real-time audio, 3D particle core, browser automation, and Google Workspace integration.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

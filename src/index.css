@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #020307;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.5);
+}
+
+/* Subtle Voice & Processing Ripple Animations for Contacts & Cards */
+@keyframes subtle-ripple {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.8;
+    box-shadow: 0 0 0 0 rgba(0, 255, 157, 0.5);
+  }
+  50% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 0;
+    box-shadow: 0 0 0 16px rgba(0, 255, 157, 0);
+  }
+}
+
+@keyframes subtle-ripple-blue {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.8;
+    box-shadow: 0 0 0 0 rgba(0, 209, 255, 0.5);
+  }
+  50% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 0;
+    box-shadow: 0 0 0 16px rgba(0, 209, 255, 0);
+  }
+}
+
+@keyframes audio-bar-pulse {
+  0%, 100% {
+    height: 4px;
+  }
+  50% {
+    height: 12px;
+  }
+}
+
+.animate-subtle-ripple {
+  animation: subtle-ripple 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+.animate-subtle-ripple-delayed {
+  animation: subtle-ripple 2s cubic-bezier(0.2, 0.8, 0.2, 1) 0.8s infinite;
+}
+
+.animate-subtle-ripple-blue {
+  animation: subtle-ripple-blue 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+.animate-subtle-ripple-blue-delayed {
+  animation: subtle-ripple-blue 2s cubic-bezier(0.2, 0.8, 0.2, 1) 0.8s infinite;
+}
